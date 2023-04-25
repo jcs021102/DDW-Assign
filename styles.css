@@ -11,6 +11,7 @@ html{
     width: 100vw;
 }
 
+
 .main{
     display:grid;
     align-items: start;
@@ -176,6 +177,11 @@ section p{
 
 .offers-grid-item{
 
+}
+
+#currentPage{
+    background-color: #fff; 
+    color: #353535;   
 }
 
 
