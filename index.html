@@ -21,7 +21,7 @@
     </div>
     <nav>
       <ul class="nav-container">
-        <li id="currentPage" class="nav-item"><a href="index.html">Home</a></li>
+        <li class="nav-item" id="currentPage"><a href="index.html">Home</a></li>
         <li class="nav-item"><a href="camping-equipment.html">Camping Equipment</a></li>
         <li class="nav-item"><a href="furniture.html">Furniture</a></li>
         <li class="nav-item"><a href="offers-and-packages.html">Offers & Packages</a></li>
@@ -34,27 +34,26 @@
 
   <section id="mailing-list">
 
-    <h3>We Have A Mailing List</h3>
+    <h2>Weekly Deals For YOU!</h2>
     <img src="assets/images/glampingAD.jpg" id="width-250px">
-    <p>Sign Up for a Free Coupon</p>
-    <form>
-      <input>
-      <button>REGISTER NOW</button>
+    <p>Sign Up for a Free 20% Off Your FIRST Purchase </p>
+    <form onsubmit="return confirm('Are you sure you want to submit?');">
+      <input type="text" name="email" value="Your Email">
+      <button type="submit" value="Submit">REGISTER NOW!</button>
     </form>
 
 
   </section>
 
   <section id="glamping-ad">
-    <h3>Affordable Group Glamping</h3>
+    <h2>Affordable Group Glamping</h2>
     <a href="https://www.glamping.com/" target="_blank">
       <img src="assets/images/glampingAD.jpg" id="width-250px">
     </a>
-    <p>Want To Camp Out Without Dirtying Your Hands?</p>
+    <p>Luxury lodgings in the heart of the wild.</p>
   </section>
 
-
-  <div class="offers-grid-container">
+  <div class="offers-grid-container" class="Content">
     <div class="offers-grid-item">
       <figure>
         <img src="assets/images/tent1.webp" id="width-330px" alt="tent" />
@@ -74,27 +73,27 @@
         <figcaption>cup - $6</figcaption>
       </figure>
     </div>
-    <div class="offers-grid-item">
+    <div class="offers-grid-item" class="offer-wide">
       <figure>
         <img src="assets/images/tent3.webp" id="width-330px" alt="tent" />
         <figcaption>Tent - $240</figcaption>
       </figure>
     </div>
     <div class="offers-grid-item">
-      <div class="offers-grid-item">
-        <figure>
-          <img src="assets/images/glampMachine.webp" id="width-330px" alt="tent" />
-          <figcaption>Glamping Queen - $24,000</figcaption>
-        </figure>
-      </div>
+
+      <figure>
+        <img src="assets/images/glampMachine.webp" id="width-330px" alt="tent" />
+        <figcaption>Glamping Queen - $24,000</figcaption>
+      </figure>
+
     </div>
     <div class="offers-grid-item">
-      <div class="offers-grid-item">
-        <figure>
-          <img src="assets/images/firewoord.webp" id="width-330px" alt="tent" />
-          <figcaption>Firewood - $50</figcaption>
-        </figure>
-      </div>
+
+      <figure>
+        <img src="assets/images/firewoord.webp" id="width-330px" alt="tent" />
+        <figcaption>Firewood - $50</figcaption>
+      </figure>
+
     </div>
     <div class="offers-grid-item">
       <figure>
@@ -103,12 +102,12 @@
       </figure>
     </div>
     <div class="offers-grid-item">
-      <div class="offers-grid-item">
-        <figure>
-          <img src="assets/images/glampMachine2.webp" id="width-330px" alt="tent" />
-          <figcaption>Glamp King - $40,000</figcaption>
-        </figure>
-      </div>
+
+      <figure>
+        <img src="assets/images/glampMachine2.webp" id="width-330px" alt="tent" />
+        <figcaption>Glamp King - $40,000</figcaption>
+      </figure>
+
     </div>
     <div class="offers-grid-item">
       <figure>
@@ -120,7 +119,8 @@
 
   <footer class="footer">
     <img src="assets/Logo.svg" id="logo-40px">
-    <h3>Camping Retail Company</h3>
+    <h3>Camping Retail Company Policies</h3>
+    <hr>
     <p>By using this site, you consent to your data being collected or used in any manner and do not find us liable for
       any matters you might disprove of.</p>
   </footer>
