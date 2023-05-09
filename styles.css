@@ -19,7 +19,7 @@ html {
   grid-template-areas:
     "topbar topbar topbar"
     "ad1 content ad2"
-    "temp1  temp2  temp3"
+    "t1  t3  t2"
     "footer footer footer";
   grid-template-columns: 1fr 4fr 1fr;
   /* grid-template-columns: repeat(autofit, 1fr); */
@@ -27,6 +27,25 @@ html {
   gap: 2rem;
   justify-content: space-between;
   background-color: ivory;
+}
+
+.searchBar{
+  grid-row: 1;
+  grid-column: 1/-1;
+  background-color: #353535;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.searchBar input{
+  padding: 0 10vw;
+
+}
+.searchBar input :hover{
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  padding: 0 20vw;
 }
 
 header {
