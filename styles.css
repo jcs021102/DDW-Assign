@@ -393,18 +393,18 @@ tr:hover {
     background-color: ivory;
   }
 
-  .offers-grid-container {
+  /* .offers-grid-container {
     grid-area: content;
     grid-column: 2/3;
     grid-row: 2;
     margin: 0 auto;
-  }
+  } */
 
   .nav-container {
     display: grid;
-    grid-template-columns:  1fr auto;
-    grid-template-rows: 1fr;
-    gap:2px;
+    /* grid-template-columns:  1fr auto;
+    grid-template-rows: 1fr; */
+    gap: 2px;
     justify-content: center;
     align-items: center;
     max-width: 95%;
